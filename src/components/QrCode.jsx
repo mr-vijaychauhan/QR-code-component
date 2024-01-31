@@ -4,7 +4,7 @@ import QRcode from '/assets/image-qr-code.png'
 
 const QrCode = () => {
   return (
-    <section className="flex flex-col justify-center items-center min-h-screen">
+    <main className="flex flex-col justify-center items-center min-h-screen">
       <div className="flex flex-col justify-center items-center bg-white w-[350px] h-full gap-4 p-4 border rounded-2xl shadow-md">
         <Image
           className="rounded-lg"
@@ -21,7 +21,7 @@ const QrCode = () => {
           to the next level!
         </p>
       </div>
-    </section>
+    </main>
   );
 };
 
