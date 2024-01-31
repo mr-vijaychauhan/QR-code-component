@@ -5,12 +5,12 @@ import QRcode from '/assets/image-qr-code.png'
 const QrCode = () => {
   return (
     <main className="flex flex-col justify-center items-center min-h-screen">
-      <div className="flex flex-col justify-center items-center bg-white w-[350px] h-full gap-4 p-4 border rounded-2xl shadow-md">
+      <div className="flex flex-col justify-center items-center bg-white w-[350px] h-full gap-4 p-4 border rounded-2xl shadow-b-2 shadow-r-2 -shadow-spread-2">
         <Image
           className="rounded-lg"
           src={QRcode}
-          width={400}
-          height={400}
+          width={300}
+          height={300}
           alt="Qr code"
         />
         <h1 className="font-semibold text-[24px] leading-tight text-center text-dark-blue">
